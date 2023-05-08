@@ -1,5 +1,7 @@
    pool:
-     vmImage: 'ubuntu-18.04'
+     #vmImage: 'ubuntu-18.04'
+     vmImage: 'ubuntu-latest'
+     
    trigger:
      - master
    steps:
